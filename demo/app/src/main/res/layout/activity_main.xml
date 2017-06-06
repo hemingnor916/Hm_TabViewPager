@@ -10,7 +10,5 @@
         android:id="@+id/pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
-
     </hm.hm_tabviewpager.Hm_TabViewPager>
 </RelativeLayout>

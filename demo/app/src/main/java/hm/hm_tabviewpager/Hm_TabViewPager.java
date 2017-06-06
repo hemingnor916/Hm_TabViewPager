@@ -165,6 +165,7 @@ public class Hm_TabViewPager extends LinearLayout {
             tabChild.addView(iv, LayoutParams.MATCH_PARENT, (int) (tabHeight * 0.60));
             tabChild.addView(tv, LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT);
             tabChild.setPadding(0, 10, 0, 10);
+            tabChild.setLayoutParams(new LinearLayout.LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT, 1.0f));
             tabParent.addView(tabChild);
 
             final int finalI = i;
@@ -265,8 +266,3 @@ public class Hm_TabViewPager extends LinearLayout {
     }
 
 }
-
-
-
-
-
